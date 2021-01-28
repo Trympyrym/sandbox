@@ -1,0 +1,11 @@
+build:
+    yarn build (можно в винде)
+deploy:
+    копируем содержимое папки build на хост в <path>/<folder>
+    sudo apt update
+    sudo apt dist-upgrade
+    sudo apt install nodejs
+    sudo apt install npm
+    npm install -g serve
+    идем в <path>
+    serve -s <folder>
